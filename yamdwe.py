@@ -49,7 +49,7 @@ def main():
     pages = importer.get_all_pages()
     print("Found %d pages to export..." % len(pages))
 
-    # Add a shameless "exported by yamdwe" note to the front page of the wiki - really shameless, but I'll keep it
+    # Add a shameless "exported by yamdwe" note to the front page of the wiki
     mainpage = importer.get_main_pagetitle()
 
     if args.nosig:
